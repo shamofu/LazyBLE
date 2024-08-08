@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+  "name": "LazyBLE",
+  "version": "0.0.1",
+  "description": "Just a BLE wrapper for my own use.",
+  "keywords": "Bluetooth, BLE",
+  "headers": "LazyBLE.h",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/shamofu/LazyBLE.git"
+  },
+  "authors":
+  [
+    {
+      "name": "shamofu",
+      "email": "shamofu@gmail.com",
+      "url": "https://shamof.uno"
+    }
+  ],
+  "export": {
+    "exclude": [
+      "platformio.ini"
+    ]
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
