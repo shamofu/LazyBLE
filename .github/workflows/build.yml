@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         example: [basic]
         board: [m5stack-cores3, m5stack-stamps3, m5stick-c]
