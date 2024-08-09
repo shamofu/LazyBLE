@@ -6,8 +6,6 @@ jobs:
   build:
     name: ${{ matrix.example }}@${{ matrix.board }}
     runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}
     strategy:
       fail-fast: false
       max-parallel: 1
