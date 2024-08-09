@@ -1,4 +1,7 @@
 # Lazy BLE
+
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/shamofu/library/LazyBLE.svg)](https://registry.platformio.org/libraries/shamofu/LazyBLE)
+
 Just a BLE wrapper for my own use.
 
 This is currently under development and may not work properly until it reaches `v1.0.0`. Therefore, it is not recommended for use at this time.
